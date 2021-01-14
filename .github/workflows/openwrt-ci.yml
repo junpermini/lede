@@ -219,3 +219,6 @@ jobs:
         with:
           name: OpenWrt firmware
           path: ./bin/targets/
+        env:
+          UPLOAD_RELEASE: true
+          
