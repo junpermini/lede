@@ -19,6 +19,8 @@ on:
   release:
     types: [published]
 
+env:
+ UPLOAD_RELEASE: 
 jobs:
 
   build_openwrt:
