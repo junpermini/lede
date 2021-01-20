@@ -20,7 +20,8 @@ on:
     types: [published]
 
 env:
-  UPLOAD_FIRMWARE: true
+ FEEDS_CONF: feeds.conf.default
+ UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
  
