@@ -20,8 +20,9 @@ on:
     types: [published]
 
 env:
- UPLOAD_RELEASE: true
- TZ: Asia/Shanghai
+  UPLOAD_FIRMWARE: true
+  UPLOAD_RELEASE: true
+  TZ: Asia/Shanghai
  
 jobs:
 
