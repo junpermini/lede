@@ -20,7 +20,9 @@ on:
     types: [published]
 
 env:
- UPLOAD_RELEASE: 
+ UPLOAD_RELEASE: true
+ TZ: Asia/Shanghai
+ 
 jobs:
 
   build_openwrt:
