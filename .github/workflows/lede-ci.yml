@@ -23,7 +23,7 @@ jobs:
 
     if: github.event.repository.owner.id == github.event.sender.id
 env:
-    UPLOAD_RELEASE: true
+  UPLOAD_RELEASE: true
     steps:
 
       - name: Checkout
