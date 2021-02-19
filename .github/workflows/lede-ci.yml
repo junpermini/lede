@@ -25,6 +25,7 @@ jobs:
 env:
   UPLOAD_RELEASE: true
 
+jobs:
     steps:
 
       - name: Checkout
