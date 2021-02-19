@@ -32,6 +32,7 @@ jobs:
 
       - name: Space cleanup
         env:
+          UPLOAD_RELEASE: true
           DEBIAN_FRONTEND: noninteractive
         run: |
           docker rmi `docker images -q`
