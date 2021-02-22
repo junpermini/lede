@@ -1,10 +1,10 @@
-name: OpenWrt-CI
+name: 1
 
 jobs:
 
   build_openwrt:
 
-    name: Build OpenWrt firmware
+    name: 2
 
     runs-on: ubuntu-20.04
 
