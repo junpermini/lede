@@ -10,3 +10,4 @@ src-git freifunk https://github.com/freifunk/openwrt-packages.git;openwrt-21.02
 #src-link custom /usr/src/openwrt/custom-feed
 #src-git helloworld https://github.com/fw876/helloworld
 #src-git docker https://gitlab.com/openwrt/docker
+src-git netdada https://github.com/junpermini/netdata
